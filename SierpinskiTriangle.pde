@@ -1,4 +1,3 @@
-int size = 50;
 public void setup()
 {
   fill(0);
@@ -8,7 +7,7 @@ public void setup()
 public void draw()
 {
   background(255);
-  sierpinski(300 - size/2 ,600,size);
+  sierpinski(300,600,size);
 }
 public void keyPressed()//optional
 {
