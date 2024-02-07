@@ -12,11 +12,7 @@ public void draw()
 }
 public void keyPressed()//optional
 {
-  if (keyCode == LEFT){
-    size -= 10;
-  } else if (keyCode == RIGHT){
-    size += 10;
-  }
+  
 }
 public void sierpinski(int x, int y, int len) 
 {
