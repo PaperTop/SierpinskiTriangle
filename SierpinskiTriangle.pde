@@ -1,13 +1,14 @@
 
 public void setup()
 {
+  background(255);
   fill(0);
   strokeWeight(0);
   size(600,600);
 }
 public void draw()
 {
-  background(255);
+
   sierpinski(600,600,400);
 }
 public void keyPressed()//optional
