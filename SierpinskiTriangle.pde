@@ -1,18 +1,23 @@
+
 public void setup()
 {
+  int size = 50;
   fill(0);
   strokeWeight(0);
   size(600,600);
 }
-int size = 50;
 public void draw()
 {
   background(255);
-  sierpinski(300,600,100);
+  sierpinski(300 - size/2 ,600,size);
 }
 public void keyPressed()//optional
 {
-  
+  if (keyCode == LEFT){
+    size -= 10;
+  } else if (keyCode == RIGHT){
+    size += 10;
+  }
 }
 public void sierpinski(int x, int y, int len) 
 {
