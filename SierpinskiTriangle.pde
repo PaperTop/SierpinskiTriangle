@@ -4,10 +4,11 @@ public void setup()
   strokeWeight(0);
   size(600,600);
 }
+int size = 50;
 public void draw()
 {
   background(255);
-  sierpinski(300,600,size);
+  sierpinski(300,600,100);
 }
 public void keyPressed()//optional
 {
